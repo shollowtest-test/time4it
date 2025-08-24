@@ -1,4 +1,4 @@
-# time4ita
+# time4it
 
 W plikach README.md znajdują się opisy dla każdej z aplikacji.
 
