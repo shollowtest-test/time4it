@@ -1,13 +1,21 @@
 # time4ita
 
-- W plikach Readme.md są opisy do każdej z apek
-- Docker normlanie starujemy 
-- Lokalnie używałem pnpm-a
-- To nie jest wersja produkcujna.
-- w sumie zeszło mi ok 6h ze tego względu że wziołem antUI a on nie zabardzo chciał wspoplracować z reactem 19 i 30 min spraciłem na pobieranie paczek do projektu nextjs (jakies problemy z netem)
-- envy wgrywam na repo (podstawowe to co było potrzebne, nic więcej)
+W plikach README.md znajdują się opisy dla każdej z aplikacji.
 
-na dokerze jest minio i mongo:
+Typowane w aplikacji frontowej było robione na szybko :/ jako kompromis
+
+Lokalnie używałem pnpm.
+
+To nie jest wersja produkcyjna.
+
+Całość zajęła mi około 6 godzin, głównie dlatego, że zdecydowałem się na Ant Design (AntD), który nie do końca współpracuje z Reactem 19. Dodatkowo straciłem około 30 minut na pobieranie paczek do projektu Next.js (problemy z połączeniem internetowym).
+
+Pliki .env dodałem do repozytorium – zawierają tylko podstawowe zmienne potrzebne do uruchomienia projektu (bez żadnych wrażliwych danych).
+
+
+na dokerze jest minio i mongoDB:
+
+- Docker normlanie starujemy 
 
 docker-compose -f infra/docker-compose.yml up -d
 
